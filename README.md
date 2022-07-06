@@ -1,28 +1,4 @@
 
-
-
-
-********************************************************************************
-NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
-********************************************************************************
-
-THIS IS JUST SPECIAL VERSION FOR MEMBERS OF THE ENCODE.RU FORUM, TO SUPPORT
-BIGGER DICTIONARY (1536MB), BY USING 7-ZIP V16.04 INSTEAD OF V9.20. M7ZREPACKER
-IS NOT DESIGNED FOR 7-ZIP V16.04 AND THE COMRESSION RESULTS ARE OFTEN BIGGER
-THAN V9.20, SO YOU'VE BEEN WARNED!
-
-HAPPY TIME WASTING ... :)
-
-********************************************************************************
-NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
-********************************************************************************
-
-
-
-
-
-
-================================================================================
 m7zRepacker (for 7-Zip V16.04) // V1.0.32.319 // (C) 2010-2017 Mario Scholz
 ================================================================================
 
