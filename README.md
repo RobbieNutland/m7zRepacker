@@ -58,23 +58,27 @@ ToDo:
 Changelog:
 ==========
 
------ V1.0.32.319 --------------------------------------------------------------
+V1.0.32.319 
+-----------
 [ADD] Added support for 7-Zip V16.04, with enabled file sorting and a maximum of
       1536mb lzma/lzma2 dictionary.
 [DEL] Removed Itanium Support (There is no Itanium Version of 7-Zip V16.04)
       
 
 
------ V1.0.32.30X --------------------------------------------------------------
+V1.0.32.30X
+-----------
 [ADD] More Delta Offsets
 
   
------ V1.0.32.301 --------------------------------------------------------------
+V1.0.32.301
+-----------
 [FIX] Compression Preset 46+47 allocate more RAM than it should on CPUs with
       more than 2 cores. Now it's limited to 2 threads like all other Presets.
 
 
------ V1.0.32.300 --------------------------------------------------------------
+V1.0.32.300
+-----------
 [FIX] Some unicode fixes in -m3 brute force mode. (7-Zip sometimes stops with a 
       "missing file" error message.)
 [ADD] Filename of the repacked archive now contains used parameters, not just
@@ -84,7 +88,8 @@ Changelog:
       be enabled or disabled in the "m7zRepacker.ini".
 
 
------ V1.0.32.282 --------------------------------------------------------------
+V1.0.32.282
+-----------
 [ADD] Windows-Cache-Management seems to have a problem, if 7-Zip runs very
       often in a short amount of time and with many small files, especially in
       m3 mode. The result is a very high cpu load and high memory usage. To
@@ -98,11 +103,13 @@ Changelog:
       check the keys/values, if you changed it to your needs.
 
 
------ V1.0.32.238 --------------------------------------------------------------
+V1.0.32.238
+-----------
 [FIX] forget to activate the BCJ2 presets (for non executables in -m2 and -m3
       brute force modes) in the last release. (BCJ2+LZMA2 works *sometimes*
       better than DELTA+LZMA2 in some situations e.g. 8bit wav files)
 
 
------ V1.0.32.236 --------------------------------------------------------------
+V1.0.32.236
+-----------
 [ADD] Public Release
