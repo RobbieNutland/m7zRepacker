@@ -62,6 +62,7 @@ V1.0.32.319
 -----------
 [ADD] Added support for 7-Zip V16.04, with enabled file sorting and a maximum of
       1536mb lzma/lzma2 dictionary.
+
 [DEL] Removed Itanium Support (There is no Itanium Version of 7-Zip V16.04)
       
 
@@ -81,9 +82,11 @@ V1.0.32.300
 -----------
 [FIX] Some unicode fixes in -m3 brute force mode. (7-Zip sometimes stops with a 
       "missing file" error message.)
+
 [ADD] Filename of the repacked archive now contains used parameters, not just
       the brute force mode. Useful for batch brute forcing.
       e.g. "File-(Repacked-M1).7z"  ->  "File [Repacked_m1_d128_mem128].7z"
+
 [ADD] Results for repacked archive can be saved in a file log file. This can
       be enabled or disabled in the "m7zRepacker.ini".
 
@@ -97,8 +100,11 @@ V1.0.32.282
       250's run of 7-Zip, so the Windows-Cache-Management is able to free memory
       and cpu load. By default m7zRepacker waits 5 seconds. The time to wait is
       definable in the m7zRepacker.ini file.
+
 [ADD] User Request: The lowest [mem] value is now "-mem24" instead of "-mem48"
+
 [ADD] User Request: New switch to extract encrypted archives ["password"]
+
 [MOD] The paths keys in the m7zRepacker.ini changed their name, so you have to
       check the keys/values, if you changed it to your needs.
 
